@@ -1,4 +1,4 @@
-#### mergeUsername
+## mergeUsername
 
 - 修改 username
 - **接口地址：** /api/account/person/mergeUsername
@@ -25,7 +25,7 @@
 ```
 
 
-#### mergeName
+## mergeName
 
 
 - 修改 firstName 和 lastName
@@ -53,7 +53,7 @@
 }
 ```
 
-#### mergeAvatar
+## mergeAvatar
 
 
 - 修改头像
@@ -80,7 +80,7 @@
 }
 ```
 
-#### mergeEntity
+## mergeEntity
 
 - 8 一次性修改所有个人信息
 - **接口地址：** /api/account/person/mergeEntity
