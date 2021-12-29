@@ -89,8 +89,6 @@
 
 | 参数名称 | 类型 | 是否必须 | 描述 |
 | :------- | :--- | :------- | :--- |
-
-
 | avatar | int | false | 头像 id |
 | email | string | false | 邮箱 |
 | address | string | false | 地址 |
