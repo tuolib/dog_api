@@ -28,7 +28,7 @@ for id in ids:
 
 # 联系人模块 Working with contacts
 
-## 增加联系人 contactAdd
+### 增加联系人 contactAdd
 
 >  Add an existing telegram user as contact.
 
@@ -54,7 +54,7 @@ user: object<user>
 ```
 
 
-## 删除联系人contactDelete
+### 删除联系人contactDelete
 
 >  Deletes several contacts from the list.
 
@@ -76,7 +76,7 @@ id: array<int>,
 ```
 
 
-## 编辑联系人信息 contactEdit
+### 编辑联系人信息 contactEdit
 
 >  Edit contacts.
 
@@ -100,7 +100,7 @@ contact: object<contact>,
 
 # 更新历史消息等等Working with updates
 
-## messageUpdate
+### messageUpdate
 
 > updates: Object which is perceived by the client without
 > a call on its part when an event occurs.
@@ -119,7 +119,7 @@ seq
 */
 ```
 
-## messageUpdateDifference
+### messageUpdateDifference
 
 > Get new updates.
 
@@ -148,7 +148,7 @@ difference: array<>
 
 # 对话列表相关 Working with dialogs
 
-## 获取对话列表 messageDialogsGet 
+### 获取对话列表 messageDialogsGet 
 
 > Returns the current user dialog list.
 
@@ -183,7 +183,7 @@ deleteGroupUser: array<int>,
 */
 ```
 
-## 获取在线信息 messageOnlinesGet
+### 获取在线信息 messageOnlinesGet
 
 > Get count of online users in a chat
 
@@ -215,7 +215,7 @@ isOnline: bool
 
 # 获取保存的gif Working with GIFs (actually MPEG4 GIFs)
 
-## messageGifSavedGet
+### messageGifSavedGet
 
 >  Get saved GIFs
 
@@ -238,7 +238,7 @@ gif: array<file>,
 ```
 
 
-## messageGifSave
+### messageGifSave
 
 >  Add GIF to saved gifs list
 
@@ -262,7 +262,7 @@ unsave: bool
 */
 ```
 
-## messageGifSearch
+### messageGifSearch
 
 >  Search for GIFs
 
@@ -288,7 +288,7 @@ findGif: array<gif>
 
 # 历史消息相关 Working with messages
 
-## 删除消息 messageHistoryDelete
+### 删除消息 messageHistoryDelete
 
 >  Deletes communication history.
 param
