@@ -74,7 +74,9 @@ success: int
 id: array<int>,
 */
 ```
-- contactEdit
+
+
+## 编辑联系人信息 contactEdit
 
 >  Edit contacts.
 
@@ -286,7 +288,7 @@ findGif: array<gif>
 
 # 历史消息相关 Working with messages
 
-# 删除消息 messageHistoryDelete
+## 删除消息 messageHistoryDelete
 
 >  Deletes communication history.
 param
